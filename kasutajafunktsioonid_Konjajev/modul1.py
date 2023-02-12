@@ -1,4 +1,10 @@
 ﻿from math import *
+def bank(a,years:int):
+    for i in range(years):
+        a=a+a*0,1
+    return a
+
+
 def season(n:int)->str:
     if n==12 or 1 <= n <=2:
         print("Talv")
