@@ -7,11 +7,13 @@ mounth=date(int(input("Напишете месяц: ")))
 year=date(int(input("Напишете год: ")))
 print(date(day,mounth,year))
 
+
 #6
 a=is_prime(int(input("Напишите число от 0-1000: ")))
 print(a)
-#5
 
+
+#5
 a=bank(int(input("скоко денег вы хотите положить: ")),)
 years=bank(int(input("На сколько лет: ")))
 print(bank(a,years))
