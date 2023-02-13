@@ -1,13 +1,10 @@
 from modul1 import *
 from math import *
 
-В= [2, 1, 2, 3, 5, 11] 
-c=B [5] * В [ 4 ] - В [2 ] - В [3] * В [ 1 ]
-print(c)
-
 #7
 kuupaev=date_(int(input("Kuupäev: ")),int(input("Kuu: ")),int(input("Aasta: ")))
 print(kuupaev)
+
 
 #6
 a=is_prime(int(input("Kirjuta arv 0-1000: ")))
