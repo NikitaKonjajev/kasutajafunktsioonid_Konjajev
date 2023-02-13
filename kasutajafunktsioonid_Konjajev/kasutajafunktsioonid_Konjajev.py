@@ -1,30 +1,33 @@
 from modul1 import *
 from math import *
 
-#7
-day=date(int(input("Напишете день: ")))
-mounth=date(int(input("Напишете месяц: ")))
-year=date(int(input("Напишете год: ")))
-print(date(day,mounth,year))
+Р’= [2, 1, 2, 3, 5, 11] 
+c=B [5] * Р’ [ 4 ] - Р’ [2 ] - Р’ [3] * Р’ [ 1 ]
+print(c)
 
+#7
+kuupaev=date_(int(input("KuupГ¤ev: ")),int(input("Kuu: ")),int(input("Aasta: ")))
+print(kuupaev)
 
 #6
-a=is_prime(int(input("Напишите число от 0-1000: ")))
+a=is_prime(int(input("Kirjuta arv 0-1000: ")))
 print(a)
 
 
 #5
-a=bank(int(input("скоко денег вы хотите положить: ")),)
-years=bank(int(input("На сколько лет: ")))
+a=bank(int(input("Millist panust sa teha tahad?: ")))
+years=bank(int(input("Kui kauaks?: ")))
 print(bank(a,years))
 
 #4
-v=season(int(input("Введите цефру времени года: ")))
+v=season(int(input("Kirjutage kuu number: ")))
 print(v)
 
+
 #3
-v=square(int(input("Введите длинну: ")))
+v=square(int(input("Anna ruudu pikkus: ")))
 print(v)
+
 
 #2
 aasta=is_year_leap(int(input("aasta:")))
